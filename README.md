@@ -1,2 +1,2 @@
 # embeddedSystems
-Some interesting projects on reliable, fail-proofed embedded systems
+Some interesting projects on reliable, fail-proofed, embedded systems
