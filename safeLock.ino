@@ -1,5 +1,10 @@
 /*
-  First Arduino Project
+  Project: Fail-safe autonomous lock system.
+  Purpose: To construct a complete and autonomous fail-safe lock system. This consists of an intelligent, fully-autonomous safe access 
+  system with distinct access levels to all of its user. A special design technique had to be developed in order to remove arduino's 
+  native constant loop-only behavior, as it was neither interesting nor useful to this endeavour. The technique applied consisted 
+  in unwrapping the loop behavior using non-tail recursion, in which the control is ceased in the first interaction of the loop, 
+  and is returned only when all the user interaction is completely finished.
   Author: Pedro Felipe de Oliveira Ribeiro
   Institute of Science and Technology - Federal University of Sao Paulo
 */
